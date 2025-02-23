@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Sentinel SIEM - Threat Hunting</title>
+</head>
+<body>
+    <h1>Azure Sentinel SIEM - Threat Hunting & Automation</h1>
+    <p>This project involves setting up Microsoft Sentinel as a SIEM solution.</p>
+
+    <h2>Step 1: Setting Up Azure Sentinel</h2>
+    <p>1. Log in to Azure, create a Log Analytics Workspace...</p>
+
+    <h2>Step 2: Configuring Sysmon</h2>
+    <p>1. Download Sysmon...</p>
+
+    <h2>Step 3: Threat Hunting with KQL</h2>
+    <pre>
+    SecurityEvent
+    | where EventID == 4625
+    | where LogonType == 10
+    </pre>
+
+    <p>More details coming soon...</p>
+
+    <a href="index.html">Back to Portfolio</a>
+</body>
+</html>
